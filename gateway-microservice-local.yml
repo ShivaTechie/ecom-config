@@ -13,7 +13,7 @@ zuul:
   routes:
     product-catalog-microservice:
       path: /products/**
-      url: http://localhost:9001:/product/**
+      url: http://localhost:9001/product/**
       stripPrefix: false
     cart-microservice:
       path: /cart/**

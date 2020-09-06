@@ -12,7 +12,7 @@ eureka:
 zuul:
   routes:
     product-catalog-microservice:
-      path: /products/
+      path: /products/**
       url: http://localhost:9001:/product/
       stripPrefix: false
     cart-microservice:

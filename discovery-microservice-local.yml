@@ -1,0 +1,10 @@
+server:
+  port: 8761
+  
+# were available in application. Starts from here till end
+eureka:
+  instance:
+   hostname: discovery-microservice  
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
